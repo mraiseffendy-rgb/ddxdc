@@ -1,7 +1,6 @@
-// config.js — upload ke GitHub repo kamu (raw URL dipakai oleh script)
+// config.js — auto-managed by Ranz Active
 module.exports = {
   users: {
-    "Ranz": "122",
-    "admin": "admin123"
+    "Ranz": "122"
   }
 };

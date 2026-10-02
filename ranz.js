@@ -18,7 +18,7 @@ const C = {
 /* ============ CONFIG ============ */
 // ⚠️ GANTI INI dengan raw URL config.js kamu di GitHub
 const GITHUB_CONFIG_URL =
-  'https://raw.githubusercontent.com/USERNAME/REPO/main/config.js';
+  'https://github.com/mraiseffendy-rgb/ddxdc.git/main/config.js';
 
 const DEFAULT_CONFIG = {
   users: { 'Ranz': '122' }

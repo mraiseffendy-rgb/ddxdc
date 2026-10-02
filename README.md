@@ -1,44 +1,75 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
-<!--                     ⚡ RANZ ACTIVE — README v6.0.0 ⚡                            -->
-<!--                   ULTIMATE EDITION · Beyond Next-Gen                          -->
+<!--                     ⚡ RANZ ACTIVE — README v7.0.0 ⚡                            -->
+<!--              WINDOWS EDITION · BILINGUAL · FLUID DESIGN                       -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ══════════════  HYPER HEADER  ══════════════ -->
+<!-- ══════════════  HEADER  ══════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,20:00e5ff,40:7b2ff7,60:ff0055,80:ffaa00,100:00ff88&height=280&section=header&text=RANZ%20ACTIVE&fontSize=105&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=v6.0.0%20·%20ULTIMATE%20EDITION&descAlignY=58&descSize=24&descColor=00ff88" width="100%"/>
-
-<!-- ══════════════  ANIMATED TITLE  ══════════════ -->
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=30&duration=2500&pause=500&color=00FF88&center=true&vCenter=true&width=850&height=70&lines=%E2%9A%A1+RANZ+ACTIVE+v6+ULTIMATE+%E2%9A%A1;The+Most+Advanced+Termux+Shell;GitHub-Synced+%E2%80%A2+6-Method+Fallback;Sudo+%E2%86%92+APT+Auto-Mapper;Zero+Dependencies+%E2%80%A2+Ultra+Fast;Built+with+%E2%9D%A4%EF%B8%8F+in+Indonesia" alt="Title"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,20:00e5ff,40:0078D4,60:7b2ff7,80:ff0055,100:00ff88&height=290&section=header&text=RANZ%20ACTIVE&fontSize=108&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=v7.0.0%20%C2%B7%20WINDOWS%20EDITION&descAlignY=56&descSize=26&descColor=00ff88" width="100%"/>
 
 <br/>
 
-<!-- ══════════════  MAIN LOADING 1→100→1  ══════════════ -->
+<!-- ══════════════  TYPING TITLE — BILINGUAL  ══════════════ -->
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=180&pause=80&color=00E5FF&center=true&vCenter=true&width=750&height=30&lines=%5B%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+INITIALIZING+%E2%80%A2+10%25;%5B%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+LOADING+CORE+%E2%80%A2+20%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+FETCHING+CONFIG+%E2%80%A2+30%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+SYNCING+GITHUB+%E2%80%A2+40%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+BUILDING+UI+%E2%80%A2+50%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+LOADING+USERS+%E2%80%A2+60%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+WIRING+SUDO+%E2%80%A2+70%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%5D+%E2%9A%A1+STARTING+SHELL+%E2%80%A2+80%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%5D+%E2%9A%A1+FINALIZING+%E2%80%A2+90%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+%E2%9C%94+READY+%E2%80%A2+100%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+%F0%9F%94%A5+MAXIMUM+%E2%80%A2+100%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%5D+%F0%9F%94%BD+COOLING+%E2%80%A2+90%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+STABILIZING+%E2%80%A2+80%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+READY+%E2%80%A2+70%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+STANDBY+%E2%80%A2+60%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+WAITING+%E2%80%A2+50%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+IDLE+%E2%80%A2+40%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+RESTING+%E2%80%A2+30%25;%5B%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+SLEEPING+%E2%80%A2+20%25;%5B%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+DONE+%E2%80%A2+10%25;%5B%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9C%A8+RESTARTING+%E2%80%A2+0%25" alt="Loading"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=28&duration=2500&pause=500&color=00FF88&center=true&vCenter=true&width=900&height=80&lines=%E2%9A%A1+RANZ+ACTIVE+v7+WINDOWS+EDITION+%E2%9A%A1;%D0%94%D0%BE%D0%B1%D1%80%D0%BE+%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D0%B2+RANZ+ACTIVE;Welcome+to+the+next+gen+Termux+shell;%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB+%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F;GitHub+Synced+%E2%80%A2+Zero+Dependencies" alt="Title"/>
 
 <br/>
 
-<!-- ══════════════  SMALL COLORFUL BOXES  ══════════════ -->
+<!-- ══════════════  WINDOWS LOGO PANEL  ══════════════ -->
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/Windows-11-0078D4?style=for-the-badge&logo=windows&logoColor=white&labelColor=0d1117" height="45"/>
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/PowerShell-Ready-5391FE?style=for-the-badge&logo=powershell&logoColor=white&labelColor=0d1117" height="45"/>
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/WSL-Supported-4D4D4D?style=for-the-badge&logo=windowsterminal&logoColor=white&labelColor=0d1117" height="45"/>
+
+</td>
+<td align="center" width="25%">
+
+<img src="https://img.shields.io/badge/Termux-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117" height="45"/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ══════════════  MAIN LOADING 1 → 100 → 1  ══════════════ -->
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=180&pause=80&color=0078D4&center=true&vCenter=true&width=780&height=30&lines=%5B%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+INITIALIZING+%E2%80%A2+10%25;%5B%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+LOADING+CORE+%E2%80%A2+20%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+FETCHING+CONFIG+%E2%80%A2+30%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+SYNCING+GITHUB+%E2%80%A2+40%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+BUILDING+UI+%E2%80%A2+50%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+WINDOWS+INTEGRATION+%E2%80%A2+60%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+WIRING+SUDO+%E2%80%A2+70%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%5D+%E2%9A%A1+STARTING+SHELL+%E2%80%A2+80%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%5D+%E2%9A%A1+FINALIZING+%E2%80%A2+90%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+%E2%9C%94+READY+%E2%80%A2+100%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+%F0%9F%94%A5+MAXIMUM+%E2%80%A2+100%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%5D+%F0%9F%94%BD+COOLING+%E2%80%A2+90%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+STABILIZING+%E2%80%A2+80%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+READY+%E2%80%A2+70%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+STANDBY+%E2%80%A2+60%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+WAITING+%E2%80%A2+50%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+IDLE+%E2%80%A2+40%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+RESTING+%E2%80%A2+30%25;%5B%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+SLEEPING+%E2%80%A2+20%25;%5B%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+DONE+%E2%80%A2+10%25;%5B%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9C%A8+RESTARTING+%E2%80%A2+0%25" alt="Loading"/>
+
+<br/>
+
+<!-- ══════════════  SMALL COLOR BOXES  ══════════════ -->
 
 <table>
 <tr>
 <td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=00FF88&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
+<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=0078D4&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
 <td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=00E5FF&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
 <td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=7B2FF7&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=FF0055&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
 <td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=FFAA00&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=00CC88&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
+<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=FF0055&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
 <td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=FF55FF&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
 </tr>
 <tr>
 <td align="center"><b>Core</b></td>
+<td align="center"><b>WinAPI</b></td>
 <td align="center"><b>Sync</b></td>
 <td align="center"><b>Shell</b></td>
-<td align="center"><b>AUTH</b></td>
-<td align="center"><b>APT</b></td>
+<td align="center"><b>SUDO</b></td>
 <td align="center"><b>Utils</b></td>
 <td align="center"><b>EXTRA</b></td>
 </tr>
@@ -50,9 +81,10 @@
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-18%2B-3C873A?style=for-the-badge&logo=node.js&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Platform-Termux-000000?style=for-the-badge&logo=android&logoColor=3DDC84&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Termux-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/GitHub_API-Synced-7b2ff7?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Version-6.0.0-00ff88?style=for-the-badge&labelColor=0d1117"/>
+  <img src="https://img.shields.io/badge/Version-7.0.0-00ff88?style=for-the-badge&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/License-MIT-00ccff?style=for-the-badge&labelColor=0d1117"/>
 </p>
 
@@ -62,12 +94,69 @@
   <img src="https://img.shields.io/badge/Security-●HARDENED-00ccff?style=flat-square&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/Speed-⚡ULTRA-7b2ff7?style=flat-square&labelColor=0d1117"/>
   <img src="https://img.shields.io/badge/Deps-0%20npm-ff0055?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Uptime-99.9%25-ffaa00?style=flat-square&labelColor=0d1117"/>
 </p>
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3000&pause=800&color=00E5FF&center=true&vCenter=true&width=900&height=30&lines=Terminal+multi-user+bergaya+Ubuntu+yang+berjalan+di+Termux;Login+terpusat+via+GitHub+%E2%80%A2+Auto-commit+user+baru;Sudo+%E2%86%92+APT+(pkg)+mapper+built-in;6+metode+fetch+anti-gagal+%E2%80%A2+Zero+dependencies" alt="Desc"/>
+<!-- ══════════════  BILINGUAL TAGLINE  ══════════════ -->
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3200&pause=800&color=00E5FF&center=true&vCenter=true&width=920&height=32&lines=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D0%B4%D0%BE%D0%B1%D1%80%D0%BE+%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D0%B2+%D0%BC%D0%B8%D1%80+%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2;Hello%2C+welcome+to+the+world+of+terminals;%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB+%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9;Multi-user+terminal+powered+by+Node.js;%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE+%D1%81+%E2%9D%A4%EF%B8%8F+%D0%B2+%D0%98%D0%BD%D0%B4%D0%BE%D0%BD%D0%B5%D0%B7%D0%B8%D0%B8" alt="Bilingual Tagline"/>
+
+</div>
+
+---
+
+> ### 🇬🇧 &nbsp;**English**
+> **Ranz Active v7.0.0 — Windows Edition** is a next-generation, multi-user terminal shell that runs on **Termux (Android)** with a clean **Windows-inspired aesthetic**. It blends the best of Linux and Windows worlds into one lightweight Node.js application.
+>
+> ### 🇷🇺 &nbsp;**Русский**
+> **Ranz Active v7.0.0 — Издание Windows** — это терминальная оболочка нового поколения для нескольких пользователей, работающая на **Termux (Android)** с эстетикой **Windows**. Она объединяет лучшее из мира Linux и Windows в одном лёгком Node.js-приложении.
+
+---
+
+<div align="center">
+
+## 📑 &nbsp;Оглавление / Table of Contents
+
+</div>
+
+| 🇷🇺 &nbsp;Раздел | 🇬🇧 &nbsp;Section |
+|:----------------|:-----------------|
+| О проекте | [About the Project](#-about-the-project) |
+| Возможности | [Features](#-features) |
+| Установка | [Installation](#-installation) |
+| Запуск | [How to Run](#-how-to-run) |
+| Проверка бана | [Check Ban](#-check-ban-) |
+| Разработчик | [About the Developer](#-about-the-developer) |
+| Предпросмотр v7 | [v7 Preview](#-v7-roadmap-preview) |
+
+---
+
+<div align="center">
+
+## 📖 &nbsp;About the Project
+
+*О проекте*
+
+</div>
+
+> 🇬🇧 **Ranz Active** was born from a simple idea: **bring the power of a Linux server to your pocket**. It transforms Termux into a multi-user experience where users can log in, run commands, install packages, and manage their own sessions — all synchronized from a single `config.js` file stored in a GitHub repo.
+>
+> 🇷🇺 **Ranz Active** родился из простой идеи: **принести мощь Linux-сервера в твой карман**. Он превращает Termux в многопользовательскую среду, где каждый пользователь может входить, выполнять команды, устанавливать пакеты и управлять сессиями — всё это синхронизируется из одного файла `config.js` в репозитории GitHub.
+
+<br/>
+
+> 🇬🇧 Every change (adding a new user) is **auto-committed** to GitHub through the API. If GitHub is down, **six fallback methods** kick in automatically until it succeeds — no manual intervention needed.
+>
+> 🇷🇺 Каждое изменение (добавление нового пользователя) **автоматически коммитится** в GitHub через API. Если GitHub недоступен — **шесть резервных методов** вступают в игру и работают до успеха — без вмешательства пользователя.
+
+<br/>
+
+<div align="center">
+
+**🌐 Global Access · 👥 Auto Sync · 📡 6-Layer Fallback · ⚡ Zero Deps**
+
+<sub>🌐 Глобальный доступ · 👥 Автосинхронизация · 📡 Шесть методов · ⚡ Без зависимостей</sub>
 
 </div>
 
@@ -75,294 +164,46 @@
 
 <div align="center">
 
-## 📑 &nbsp;Daftar Isi
+## ✨ &nbsp;Features
+
+*Возможности*
 
 </div>
 
-<table>
-<tr>
-<td valign="top" width="25%">
+### 🎨 &nbsp;Terminal Appearance — *Внешний вид терминала*
 
-**🚀 Overview**
-- [Tentang](#-tentang-project)
-- [Fitur](#-fitur-utama)
-- [Preview](#-preview)
-- [Arsitektur](#-arsitektur)
+> 🟢 Raksasa ASCII box **"RANZ ACTIVE"** dengan aksen **Windows Blue `#0078D4`** dan neon green `#00ff88`
+> 📊 Animated loading bar **1 → 100%** selama 2 menit dengan 20+ status berbeda
+> 🎨 Warna ANSI 256-bit penuh — *Поддержка 256-битных ANSI-цветов*
+> 🖼️ Menu box dengan border Unicode `╔═╗` yang rapi dan fluid
 
-</td>
-<td valign="top" width="25%">
+### 🔐 &nbsp;Multi-User Authentication — *Аутентификация*
 
-**⚙️ Setup**
-- [Struktur](#-struktur-file)
-- [Instalasi](#️-cara-memasang)
-- [Token GitHub](#-setup-github-token)
+> 👥 Login terpusat via `config.js` di GitHub
+> 🔒 Password di-mask `***` saat diketik — *Маскировка пароля звёздочками*
+> 🌐 Sinkron real-time tiap login
+> 📡 Offline fallback ke cache lokal
 
-</td>
-<td valign="top" width="25%">
+### 💻 &nbsp;Terminal Shell — *Терминальная оболочка*
 
-**🎮 Penggunaan**
-- [Run Script](#-cara-run-script)
-- [Cara Pakai](#-cara-memakai)
-- [Command](#-command-yang-didukung)
-- [Tracker](#-fetch-tracker)
+> 🐧 Dynamic prompt: `root{user}{online}$` warna hijau
+> ⚡ `sudo <cmd>` otomatis di-map ke `pkg` (APT Termux) — *Автоматическое преобразование sudo в pkg*
+> 📂 Stateful `cd` (tidak reset tiap command)
+> 🔧 Semua command bash didukung penuh
 
-</td>
-<td valign="top" width="25%">
+### ☁️ &nbsp;GitHub Sync — *Синхронизация с GitHub*
 
-**📚 Lainnya**
-- [CEK BANNIR](#-cek-bannir-)
-- [Developer](#-tentang-developer)
-- [FAQ](#️-troubleshooting)
-- [Pratinjau v6](#-pratinjau-peningkatan-project)
-
-</td>
-</tr>
-</table>
+> 🔄 **6 metode fetch** dengan auto-fallback pintar
+> 📝 Add user → auto-commit ke GitHub
+> 📈 Fetch tracker dengan statistik & latency
+> 🎯 Auto-reorder berdasarkan success-rate
 
 ---
 
 <div align="center">
 
-## 📖 &nbsp;Tentang Project
+## 🏗️ &nbsp;Architecture
+
+*Архитектура*
 
 </div>
-
-**Ranz Active v6 ULTIMATE** adalah **next-generation terminal multi-user** berbasis **Node.js** yang berjalan di **Termux (Android)**. Menggabungkan pengalaman seperti masuk ke *server Ubuntu* — lengkap dengan **login multi-user**, **prompt root**, dan **command `sudo`** — ke dalam satu aplikasi ringan tanpa dependency eksternal.
-
-Semua data user disimpan terpusat di file `config.js` pada repo **GitHub**. Setiap perubahan (tambah user) langsung **auto-commit** via GitHub API. Kalau GitHub down? Ada **6 lapis fallback** yang otomatis mencoba metode lain sampai berhasil.
-
-<table>
-<tr>
-<td width="25%" align="center">
-
-### 🌐
-**Global Access**
-login dari mana saja
-
-</td>
-<td width="25%" align="center">
-
-### 👥
-**Auto Sync**
-user baru → commit
-
-</td>
-<td width="25%" align="center">
-
-### 📡
-**6-Layer Fallback**
-anti-gagal total
-
-</td>
-<td width="25%" align="center">
-
-### ⚡
-**Zero Deps**
-tanpa npm install
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-## ✨ &nbsp;Fitur Utama
-
-</div>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🎨 &nbsp;Tampilan Terminal
-
-- 🟢 Kotak ASCII **"RANZ ACTIVE"** raksasa warna cyan
-- 📊 Loading bar animasi **1 → 100%** selama 2 menit
-- 🎨 Progress bar **warna-warni** dengan status berubah
-- 🌈 Full ANSI colors 256-bit
-- 🖼️ Menu box bergaya Unicode border `╔═╗`
-
-### 🔐 &nbsp;Autentikasi Multi-User
-
-- 👥 Login terpusat via `config.js` di GitHub
-- 🔒 Password di-mask `***` saat diketik
-- 🌐 Sinkron real-time dari GitHub tiap login
-- 📡 Offline fallback ke cache lokal
-
-</td>
-<td width="50%" valign="top">
-
-### 💻 &nbsp;Terminal Shell
-
-- 🐧 Prompt dinamis: `root{user}{online}$` warna hijau
-- ⚡ `sudo <cmd>` otomatis di-map ke `pkg` (APT Termux)
-- 📂 `cd` **stateful** (tidak reset tiap command)
-- 🔧 Semua command bash didukung
-- 🎯 Built-in: `whoami`, `pwd`, `clear`, `exit`
-
-### ☁️ &nbsp;GitHub Sync
-
-- 🔄 **6 metode fetch** dengan auto-fallback pintar
-- 📝 Add user → **auto-commit** ke GitHub
-- 📈 Fetch tracker dengan statistik & latency
-- 🎯 Auto-reorder metode berdasar success-rate
-
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-
-## 🎬 &nbsp;Preview
-
-</div>
-
-### 1️⃣ &nbsp;Startup Screen
-
-```txt
-╔════════════════════════════════════════════════════════════════╗
-║    ██████╗  █████╗ ███╗   ██╗███████╗                          ║
-║    ██╔══██╗██╔══██╗████╗  ██║╚══███╔╝                          ║
-║    ██████╔╝███████║██╔██╗ ██║  ███╔╝                           ║
-║    ██╔══██╗██╔══██║██║╚██╗██║ ███╔╝                            ║
-║    ██║  ██║██║  ██║██║ ╚████║███████╗                          ║
-║    ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝                          ║
-║       ▄▀█ █▀▀ ▀█▀ █ █ █▀▀                                      ║
-║       █▀█ █▄▄  █  █▀▄ ██▄                                      ║
-╚════════════════════════════════════════════════════════════════╝
-  Memuat config.js dari GitHub (6 metode fallback)...
-  [1/6] coba github-api... ✔ 320ms via GitHub API
-  ✔ Config OK dari "GitHub API" — 3 user
-  Starting services...
-╭──────────────────────────────────────────╮
-│[██████████████████████████████] 100%     │
-╰──────────────────────────────────────────╯
-
-<div align="center">
-
-## 🎬 &nbsp;Preview
-
-</div>
-
-### 1️⃣ &nbsp;Startup Linked checking bannir
-
-```txt
-╔═══════════════════════════════════════════════════════════════════╗
-║                                                                   ║
-║           🔗  KLIK KOTAK INI UNTUK CEK BANNIR  🔗                 ║
-║                                                                   ║
-║     🌐 https://keban-ya-dek.mraiseffendy.workers.dev              ║
-║     → Klik dimana saja di kotak ini ←                             ║
-║     ✅ Aman • ⚡ Cepat • 🔒 Terpercaya                            ║
-║                                                                   ║
-║     [🔗 https://keban-ya-dek.mraiseffendy.workers.dev]           ║
-║                                                                   ║
-║              🌐 Klik untuk membuka di browser                     ║
-║                                                                   ║
-╚═══════════════════════════════════════════════════════════════════╝
-
-        [🚨 CEK BANNIR SEKARANG 🚨]   [✅ BUKA URL]
-
-📋 Atau copy URL ini:
-
-https://keban-ya-dek.mraiseffendy.workers.dev
-
-⚡ Powered by Cloudflare Workers ⚡
-🔒 SSL Secured • Fast Response
-🌍 Accessible 24/7 Worldwide
-
-<div align="center">
-
-## 🎬 &nbsp; developer 
-
-</div>
-
-### 1️⃣ &nbsp;Startup tentang developer 
-
-```txt
-╔════════════════════════════════════════════════════════════════════╗
-║                                                                    ║
-║                    🌟  Halo, Kenalan Yuk!  🌟                      ║
-║                                                                    ║
-║  🎯 Paragraf 1 — Latar Belakang & Filosofi                         ║
-║  ────────────────────────────────────────                          ║
-║  Ranz adalah seorang developer muda asal Indonesia yang aktif di   ║
-║  dunia otomasi terminal, Android modding, dan pengembangan tools   ║
-║  CLI berbasis Node.js...                                           ║
-║                                                                    ║
-║  💡 Paragraf 2 — Sifat & Prinsip Kerja                             ║
-║  ────────────────────────────────────────                          ║
-║  Di tengah kesibukannya, Ranz dikenal sebagai pribadi yang suka    ║
-║  berbagi...                                                        ║
-║                                                                    ║
-║  🚀 Paragraf 3 — Visi & Ajakan Kolaborasi                          ║
-║  ────────────────────────────────────────                          ║
-║  Ke depan, Ranz berencana terus mengembangkan Ranz Active...       ║
-║                                                                    ║
-║  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─                          ║
-║                                                                    ║
-║        💬 "Kode yang baik bukan yang paling rumit,                 ║
-║             tapi yang paling berguna."                             ║
-║                    — Ranz                                          ║
-║                                                                    ║
-╚════════════════════════════════════════════════════════════════════╝
-
-  [🔗 Follow-Ranz]  [💬 Hubungi-Kami]  [⭐ Kasih-Star]  [🍴 Buat-Fork]
-
-      🇮🇩 Made with ❤️ in Indonesia
-      🚀 Terima kasih sudah membaca!
-
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-<!--              🚀 CARA RUNNING — COPY-FRIENDLY VERSION                    -->
-<!-- ═══════════════════════════════════════════════════════════════════════ -->
-
-<br/>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=26&duration=2200&pause=700&color=00FF88&center=true&vCenter=true&width=800&height=55&lines=%F0%9F%9A%80+CARA+RUNNING+SCRIPT;Klik+tombol+%F0%9F%93%8B+untuk+copy;%E2%9A%A1+3+langkah+%E2%80%A2+Zero+dependencies" alt="Cara Running"/>
-
-<br/>
-<br/>
-
-<h3>📋 &nbsp;Cara Copy &nbsp;📋</h3>
-
-<p>👉 Arahkan kursor ke blok code → muncul tombol <b>Copy</b> 📋 di pojok kanan atas → <b>klik</b> → paste di Termux!</p>
-
-<br/>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff88,50:00e5ff,100:7b2ff7&height=3" width="60%"/>
-
-<br/>
-<br/>
-
-<!-- ╔════════════════════════════════════════════════════════════════════╗ -->
-<!-- ║                QUICK START — COPY PASTE 3 BARIS                     ║ -->
-<!-- ╚════════════════════════════════════════════════════════════════════╝ -->
-
-<h3>⚡ &nbsp;Quick Start — Copy Langsung &nbsp;⚡</h3>
-
-<p><i>👉 Klik tombol <b>Copy</b> di pojok kanan blok code di bawah, paste ke Termux — beres!</i></p>
-
-</div>
-
-```bash
-
-
-pkg install nodejs git nano -y && mkdir -p ~/ranz && cd ~/ranz && nano ranz.js
-
-<div align="center">
-
-## 🎬 &nbsp; running termux 
-
-</div>
-
-### 1️⃣ &nbsp;Startup tentang run termux 
-
-```txt
-echo 'export GITHUB_TOKEN="ghp_xxxxxxxxxxxx"' >> ~/.bashrc && source ~/.bashrc
-node ranz.js

@@ -1,209 +1,186 @@
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 <!--                     ⚡ RANZ ACTIVE — README v7.0.0 ⚡                            -->
-<!--              WINDOWS EDITION · BILINGUAL · FLUID DESIGN                       -->
+<!--                   WINDOWS TERMINAL EDITION · The Power of Shell                 -->
 <!-- ═══════════════════════════════════════════════════════════════════════════════ -->
 
 <div align="center">
 
-<!-- ══════════════  HEADER  ══════════════ -->
+<!-- ══════════════  HYPER HEADER (Windows Style)  ══════════════ -->
+<!-- Menggunakan background hitam untuk logo Windows agar terlihat 'stand out' dan keren -->
+<img src="https://capsule-render.vercel.app/api?type=rect&color=000000&height=280&section=header&text=RANZ%20ACTIVE&fontSize=105&fontColor=ffffff&animation=twinkling&fontAlignY=34&desc=v7.0.0%20·%20WINDOWS%20ULTIMATE&descAlignY=58&descSize=24&descColor=00e5ff" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,20:00e5ff,40:0078D4,60:7b2ff7,80:ff0055,100:00ff88&height=290&section=header&text=RANZ%20ACTIVE&fontSize=108&fontColor=ffffff&animation=twinkling&fontAlignY=32&desc=v7.0.0%20%C2%B7%20WINDOWS%20EDITION&descAlignY=56&descSize=26&descColor=00ff88" width="100%"/>
+<!-- Logo Windows yang Kece di Bawah Header -->
+<br>
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2012_%28dark_blue%29.svg/256px-Windows_logo_-_2012_%28dark_blue%29.svg.png" width="80px" alt="Windows Logo"/>
+<br>
+
+<!-- ══════════════  ANIMATED TITLE (Multilingual)  ══════════════ -->
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=28&duration=2500&pause=500&color=00FF88&center=true&vCenter=true&width=850&height=70&lines=RANZ+ACTIVE+v7+%E2%98%85+WINDOWS+ULTIMATE;The+Most+Fluid+Termux+Shell;Мощный+шелл+для+Termux+на+стиле;Simulasi+Windows+CMD+di+Android;No+More+Rigid+Borders+%E2%9C%A8;Zero+Dependencies+%E2%80%A2+Ultra+Fast" alt="Title"/>
 
 <br/>
 
-<!-- ══════════════  TYPING TITLE — BILINGUAL  ══════════════ -->
+<!-- ══════════════  WINDOWS-STYLE LOADING (Modern)  ══════════════ -->
+<!-- Menghapus kotak [|||] yang kaku, menggunakan simbol yang lebih halus -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=200&pause=50&color=00E5FF&center=true&vCenter=true&width=750&height=30&lines=%E2<div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=28&duration=2500&pause=500&color=00FF88&center=true&vCenter=true&width=900&height=80&lines=%E2%9A%A1+RANZ+ACTIVE+v7+WINDOWS+EDITION+%E2%9A%A1;%D0%94%D0%BE%D0%B1%D1%80%D0%BE+%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D0%B2+RANZ+ACTIVE;Welcome+to+the+next+gen+Termux+shell;%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB+%D0%BD%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D0%BF%D0%BE%D0%BA%D0%BE%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F;GitHub+Synced+%E2%80%A2+Zero+Dependencies" alt="Title"/>
+# `⚡ RANZ ACTIVE v7 ⚡`
+### Windows Ultimate Edition — The Multi-Language Interface
 
-<br/>
+---
 
-<!-- ══════════════  WINDOWS LOGO PANEL  ══════════════ -->
+<img src="https://i.ibb.co/XjC4qgD/windows-logo-modern.png" alt="Windows Logo" width="150">
 
-<table>
-<tr>
-<td align="center" width="25%">
+<br>
 
-<img src="https://img.shields.io/badge/Windows-11-0078D4?style=for-the-badge&logo=windows&logoColor=white&labelColor=0d1117" height="45"/>
+<img src="https://readme-typing-svg.demolab.com?font=Poppins&weight=700&size=28&duration=2000&pause=1000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&height=70&lines=RANZ+ACTIVE+%E2%80%A2+VERSION+7.0;ULTIMATE+WINDOWS+INTEGRATION;GLOBAL+LANGUAGE+SUPPORT" alt="Typing SVG" />
+
+<br>
+
+<!-- --------------------------------------- -->
+<!--  TOP INTERFACE — LOGS & STATUS          -->
+<!-- --------------------------------------- -->
+<table border="0" cellpadding="0" cellspacing="0">
+<tr style="background-color: #000000; color: #ffffff; border-radius: 10px;">
+<td width="400px" style="padding: 20px; border-radius: 10px; font-family: 'Consolas', 'Courier New', monospace; vertical-align: top; box-shadow: 5px 5px 15px rgba(0,0,0,0.5);">
+
+### `[ SYS LOG v7.0.0 ]`
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png" width="100% height="2px">
+
+`> [10:00:01] BOOT: Starting Ranz Active v7...`
+`> [10:00:02] CORE: Initializing subsystems...`
+`> [10:00:03] LANG: Loading language packs...`
+`> [10:00:03] ✔ ENGLISH (US) Loaded.`
+`> [10:00:04] ✔ РУССКИЙ (RU) Loaded.`
+`> [10:00:05] ✔ INDONESIAN (ID) Loaded.`
+`> [10:00:06] WIN: Integrating environment...`
+`> [10:00:08] ✔ STATUS: SYSTEM READY.`
 
 </td>
-<td align="center" width="25%">
+<td width="30px"></td> <!-- Spacer -->
+<td width="200px" style="padding: 20px; border-radius: 10px; background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%); vertical-align: top; text-align: center; border: 1px solid #333;">
 
-<img src="https://img.shields.io/badge/PowerShell-Ready-5391FE?style=for-the-badge&logo=powershell&logoColor=white&labelColor=0d1117" height="45"/>
-
-</td>
-<td align="center" width="25%">
-
-<img src="https://img.shields.io/badge/WSL-Supported-4D4D4D?style=for-the-badge&logo=windowsterminal&logoColor=white&labelColor=0d1117" height="45"/>
-
-</td>
-<td align="center" width="25%">
-
-<img src="https://img.shields.io/badge/Termux-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117" height="45"/>
+<img src="https://img.shields.io/badge/System-ONLINE-00FF00?style=for-the-badge&logo=windows&logoColor=white" alt="Status">
+<br><br>
+<img src="https://img.shields.io/badge/Version-7.0.0-0078D7?style=for-the-badge&logo=github" alt="Version">
+<br><br>
+<img src="https://img.shields.io/badge/Interface-FLUID-FF0055?style=for-the-badge" alt="Interface">
 
 </td>
 </tr>
 </table>
 
-<br/>
+<br>
+<br>
 
-<!-- ══════════════  MAIN LOADING 1 → 100 → 1  ══════════════ -->
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=16&duration=180&pause=80&color=0078D4&center=true&vCenter=true&width=780&height=30&lines=%5B%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+INITIALIZING+%E2%80%A2+10%25;%5B%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+LOADING+CORE+%E2%80%A2+20%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+FETCHING+CONFIG+%E2%80%A2+30%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+SYNCING+GITHUB+%E2%80%A2+40%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+BUILDING+UI+%E2%80%A2+50%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+WINDOWS+INTEGRATION+%E2%80%A2+60%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9A%A1+WIRING+SUDO+%E2%80%A2+70%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%5D+%E2%9A%A1+STARTING+SHELL+%E2%80%A2+80%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%5D+%E2%9A%A1+FINALIZING+%E2%80%A2+90%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+%E2%9C%94+READY+%E2%80%A2+100%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+%F0%9F%94%A5+MAXIMUM+%E2%80%A2+100%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%5D+%F0%9F%94%BD+COOLING+%E2%80%A2+90%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+STABILIZING+%E2%80%A2+80%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+READY+%E2%80%A2+70%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+STANDBY+%E2%80%A2+60%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+WAITING+%E2%80%A2+50%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+IDLE+%E2%80%A2+40%25;%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+RESTING+%E2%80%A2+30%25;%5B%E2%96%88%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+SLEEPING+%E2%80%A2+20%25;%5B%E2%96%88%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%F0%9F%94%BD+DONE+%E2%80%A2+10%25;%5B%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%E2%96%91%5D+%E2%9C%A8+RESTARTING+%E2%80%A2+0%25" alt="Loading"/>
-
-<br/>
-
-<!-- ══════════════  SMALL COLOR BOXES  ══════════════ -->
-
-<table>
+<!-- --------------------------------------- -->
+<!--  LANGUAGE SELECTOR                      -->
+<!-- --------------------------------------- -->
+<table border="0" cellpadding="0" cellspacing="0" style="background-color: #111; border-radius: 50px; padding: 5px; box-shadow: inset 0 0 10px #000;">
 <tr>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=00FF88&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=0078D4&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=00E5FF&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=7B2FF7&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=FFAA00&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=FF0055&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-<td align="center" width="14.28%"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=12&duration=1000&pause=200&color=FF55FF&center=true&vCenter=true&width=80&height=30&lines=%5B%E2%96%88%E2%96%88%E2%96%88%5D" alt=""/></td>
-</tr>
-<tr>
-<td align="center"><b>Core</b></td>
-<td align="center"><b>WinAPI</b></td>
-<td align="center"><b>Sync</b></td>
-<td align="center"><b>Shell</b></td>
-<td align="center"><b>SUDO</b></td>
-<td align="center"><b>Utils</b></td>
-<td align="center"><b>EXTRA</b></td>
+<td style="padding: 0 15px;">**SELECT LANGUAGE:**</td>
+<td style="padding: 5px;"><a href="#english"><img src="https://img.shields.io/badge/English-US-white?style=for-the-badge&logo=pypy&logoColor=black&labelColor=white" alt="English"></a></td>
+<td style="padding: 5px;"><a href="#russian"><img src="https://img.shields.io/badge/Русский-RU-red?style=for-the-badge&logo=pypy&logoColor=white&labelColor=red" alt="Russian"></a></td>
+<td style="padding: 5px;"><a href="#indonesian"><img src="https://img.shields.io/badge/Indonesia-ID-white?style=for-the-badge&logo=pypy&logoColor=red&labelColor=white" alt="Indonesian"></a></td>
 </tr>
 </table>
 
-<br/>
+</div>
 
-<!-- ══════════════  BADGES  ══════════════ -->
+<br>
+<hr style="border: 1px solid #333;">
+<br>
 
-<p>
-  <img src="https://img.shields.io/badge/Node.js-18%2B-3C873A?style=for-the-badge&logo=node.js&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Termux-Android-3DDC84?style=for-the-badge&logo=android&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/GitHub_API-Synced-7b2ff7?style=for-the-badge&logo=github&logoColor=white&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Version-7.0.0-00ff88?style=for-the-badge&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/License-MIT-00ccff?style=for-the-badge&labelColor=0d1117"/>
+<!-- ======================================= -->
+<!--  SECTION: ENGLISH (Welcome)             -->
+<!-- ======================================= -->
+<a id="english"></a>
+<div align="left" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; background-color: #fafafa; color: #333; border-radius: 10px; border: 1px solid #eee;">
+
+## 🌐 Welcome to Ranz Active v7
+
+We are thrilled to introduce the seventh major iteration of **Ranz Active**, now featuring deep **Windows integration** and a completely revised, **fluid user interface**. This version breaks away from the rigid structures of the past, offering a seamless experience across different operating environments.
+
+### 🔑 Key Features (English)
+
+-   💻 **Deep Windows Integration:** Native feel and performance on Windows systems.
+-   ✨ **Fluid UI:** A modern, non-restrictive interface designed for usability.
+-   🌍 **Multilingual:** Full support for English, Russian, and Indonesian languages.
+-   🛡️ **Enhanced Security:** Robust protocols to keep your data safe.
+
+</div>
+
+<br>
+<hr style="border: 1px solid #333;">
+<br>
+
+<!-- ======================================= -->
+<!--  SECTION: RUSSIAN (Добро пожаловать)     -->
+<!-- ======================================= -->
+<a id="russian"></a>
+<div align="left" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; background-color: #1e1e1e; color: #f0f0f0; border-radius: 10px; border: 1px solid #333;">
+
+## 🇷🇺 Добро пожаловать в Ranz Active v7
+
+Мы рады представить седьмое крупное обновление **Ranz Active**, которое теперь включает глубокую **интеграцию с Windows** и полностью переработанный, **плавный пользовательский интерфейс**. Эта версия отказывается от жестких структур прошлого, предлагая удобный опыт работы в различных операционных средах.
+
+### 🔑 Основные характеристики (Русский)
+
+-   💻 **Глубокая интеграция с Windows:** Нативное ощущение и производительность в системах Windows.
+-   ✨ **Плавный интерфейс:** Современный, не ограничивающий интерфейс, разработанный для удобства использования.
+-   🌍 **Многоязычность:** Полная поддержка английского, русского и индонезийского языков.
+-   🛡️ **Повышенная безопасность:** Надежные протоколы для защиты ваших данных.
+
+</div>
+
+<br>
+<hr style="border: 1px solid #333;">
+<br>
+
+<!-- ======================================= -->
+<!--  SECTION: INDONESIAN (Selamat Datang)   -->
+<!-- ======================================= -->
+<a id="indonesian"></a>
+<div align="left" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding: 20px; background-color: #fafafa; color: #333; border-radius: 10px; border: 1px solid #eee;">
+
+## 🇮🇩 Selamat Datang di Ranz Active v7
+
+Kami sangat senang memperkenalkan iterasi utama ketujuh dari **Ranz Active**, kini menampilkan **integrasi Windows** yang mendalam dan **antarmuka pengguna yang mengalir** sepenuhnya telah direvisi. Versi ini melepaskan diri dari struktur kaku masa lalu, menawarkan pengalaman yang mulus di berbagai lingkungan operasi.
+
+### 🔑 Fitur Utama (Indonesia)
+
+-   💻 **Integrasi Windows Mendalam:** Rasa dan performa asli pada sistem Windows.
+-   ✨ **UI yang Mengalir:** Antarmuka modern yang tidak membatasi, dirancang untuk kegunaan.
+-   🌍 **Multibahasa:** Dukungan penuh untuk bahasa Inggris, Rusia, dan Indonesia.
+-   🛡️ **Keamanan yang Ditingkatkan:** Protokol kuat untuk menjaga keamanan data Anda.
+
+</div>
+
+<br>
+<br>
+
+<!-- --------------------------------------- -->
+<!--  FOOTER                                 -->
+<!-- --------------------------------------- -->
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" height="4px">
+
+<br>
+
+### `[ CONTACT & SUPPORT ]`
+
+<br>
+
+<p align="center">
+<a href="https://github.com/yourusername"><img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
+<a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+<a href="https://discord.gg/yourserver"><img src="https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
-<p>
-  <img src="https://img.shields.io/badge/Status-●ONLINE-00ff88?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Build-✓PASSING-00ff88?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Security-●HARDENED-00ccff?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Speed-⚡ULTRA-7b2ff7?style=flat-square&labelColor=0d1117"/>
-  <img src="https://img.shields.io/badge/Deps-0%20npm-ff0055?style=flat-square&labelColor=0d1117"/>
-</p>
+<br>
 
-<br/>
-
-<!-- ══════════════  BILINGUAL TAGLINE  ══════════════ -->
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=17&duration=3200&pause=800&color=00E5FF&center=true&vCenter=true&width=920&height=32&lines=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D0%B4%D0%BE%D0%B1%D1%80%D0%BE+%D0%BF%D0%BE%D0%B6%D0%B0%D0%BB%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D0%B2+%D0%BC%D0%B8%D1%80+%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2;Hello%2C+welcome+to+the+world+of+terminals;%D0%A2%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB+%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9;Multi-user+terminal+powered+by+Node.js;%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE+%D1%81+%E2%9D%A4%EF%B8%8F+%D0%B2+%D0%98%D0%BD%D0%B4%D0%BE%D0%BD%D0%B5%D0%B7%D0%B8%D0%B8" alt="Bilingual Tagline"/>
-
-</div>
-
----
-
-> ### 🇬🇧 &nbsp;**English**
-> **Ranz Active v7.0.0 — Windows Edition** is a next-generation, multi-user terminal shell that runs on **Termux (Android)** with a clean **Windows-inspired aesthetic**. It blends the best of Linux and Windows worlds into one lightweight Node.js application.
->
-> ### 🇷🇺 &nbsp;**Русский**
-> **Ranz Active v7.0.0 — Издание Windows** — это терминальная оболочка нового поколения для нескольких пользователей, работающая на **Termux (Android)** с эстетикой **Windows**. Она объединяет лучшее из мира Linux и Windows в одном лёгком Node.js-приложении.
-
----
-
-<div align="center">
-
-## 📑 &nbsp;Оглавление / Table of Contents
-
-</div>
-
-| 🇷🇺 &nbsp;Раздел | 🇬🇧 &nbsp;Section |
-|:----------------|:-----------------|
-| О проекте | [About the Project](#-about-the-project) |
-| Возможности | [Features](#-features) |
-| Установка | [Installation](#-installation) |
-| Запуск | [How to Run](#-how-to-run) |
-| Проверка бана | [Check Ban](#-check-ban-) |
-| Разработчик | [About the Developer](#-about-the-developer) |
-| Предпросмотр v7 | [v7 Preview](#-v7-roadmap-preview) |
-
----
-
-<div align="center">
-
-## 📖 &nbsp;About the Project
-
-*О проекте*
-
-</div>
-
-> 🇬🇧 **Ranz Active** was born from a simple idea: **bring the power of a Linux server to your pocket**. It transforms Termux into a multi-user experience where users can log in, run commands, install packages, and manage their own sessions — all synchronized from a single `config.js` file stored in a GitHub repo.
->
-> 🇷🇺 **Ranz Active** родился из простой идеи: **принести мощь Linux-сервера в твой карман**. Он превращает Termux в многопользовательскую среду, где каждый пользователь может входить, выполнять команды, устанавливать пакеты и управлять сессиями — всё это синхронизируется из одного файла `config.js` в репозитории GitHub.
-
-<br/>
-
-> 🇬🇧 Every change (adding a new user) is **auto-committed** to GitHub through the API. If GitHub is down, **six fallback methods** kick in automatically until it succeeds — no manual intervention needed.
->
-> 🇷🇺 Каждое изменение (добавление нового пользователя) **автоматически коммитится** в GitHub через API. Если GitHub недоступен — **шесть резервных методов** вступают в игру и работают до успеха — без вмешательства пользователя.
-
-<br/>
-
-<div align="center">
-
-**🌐 Global Access · 👥 Auto Sync · 📡 6-Layer Fallback · ⚡ Zero Deps**
-
-<sub>🌐 Глобальный доступ · 👥 Автосинхронизация · 📡 Шесть методов · ⚡ Без зависимостей</sub>
-
-</div>
-
----
-
-<div align="center">
-
-## ✨ &nbsp;Features
-
-*Возможности*
-
-</div>
-
-### 🎨 &nbsp;Terminal Appearance — *Внешний вид терминала*
-
-> 🟢 Raksasa ASCII box **"RANZ ACTIVE"** dengan aksen **Windows Blue `#0078D4`** dan neon green `#00ff88`
-> 📊 Animated loading bar **1 → 100%** selama 2 menit dengan 20+ status berbeda
-> 🎨 Warna ANSI 256-bit penuh — *Поддержка 256-битных ANSI-цветов*
-> 🖼️ Menu box dengan border Unicode `╔═╗` yang rapi dan fluid
-
-### 🔐 &nbsp;Multi-User Authentication — *Аутентификация*
-
-> 👥 Login terpusat via `config.js` di GitHub
-> 🔒 Password di-mask `***` saat diketik — *Маскировка пароля звёздочками*
-> 🌐 Sinkron real-time tiap login
-> 📡 Offline fallback ke cache lokal
-
-### 💻 &nbsp;Terminal Shell — *Терминальная оболочка*
-
-> 🐧 Dynamic prompt: `root{user}{online}$` warna hijau
-> ⚡ `sudo <cmd>` otomatis di-map ke `pkg` (APT Termux) — *Автоматическое преобразование sudo в pkg*
-> 📂 Stateful `cd` (tidak reset tiap command)
-> 🔧 Semua command bash didukung penuh
-
-### ☁️ &nbsp;GitHub Sync — *Синхронизация с GitHub*
-
-> 🔄 **6 metode fetch** dengan auto-fallback pintar
-> 📝 Add user → auto-commit ke GitHub
-> 📈 Fetch tracker dengan statistik & latency
-> 🎯 Auto-reorder berdasarkan success-rate
-
----
-
-<div align="center">
-
-## 🏗️ &nbsp;Architecture
-
-*Архитектура*
+`Developed by Ranz Active Team • © 2024`
 
 </div>

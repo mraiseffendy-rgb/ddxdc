@@ -241,3 +241,128 @@ tanpa npm install
 ╭──────────────────────────────────────────╮
 │[██████████████████████████████] 100%     │
 ╰──────────────────────────────────────────╯
+
+<div align="center">
+
+## 🎬 &nbsp;Preview
+
+</div>
+
+### 1️⃣ &nbsp;Startup Linked checking bannir
+
+```txt
+╔═══════════════════════════════════════════════════════════════════╗
+║                                                                   ║
+║           🔗  KLIK KOTAK INI UNTUK CEK BANNIR  🔗                 ║
+║                                                                   ║
+║     🌐 https://keban-ya-dek.mraiseffendy.workers.dev              ║
+║     → Klik dimana saja di kotak ini ←                             ║
+║     ✅ Aman • ⚡ Cepat • 🔒 Terpercaya                            ║
+║                                                                   ║
+║     [🔗 https://keban-ya-dek.mraiseffendy.workers.dev]           ║
+║                                                                   ║
+║              🌐 Klik untuk membuka di browser                     ║
+║                                                                   ║
+╚═══════════════════════════════════════════════════════════════════╝
+
+        [🚨 CEK BANNIR SEKARANG 🚨]   [✅ BUKA URL]
+
+📋 Atau copy URL ini:
+
+https://keban-ya-dek.mraiseffendy.workers.dev
+
+⚡ Powered by Cloudflare Workers ⚡
+🔒 SSL Secured • Fast Response
+🌍 Accessible 24/7 Worldwide
+
+<div align="center">
+
+## 🎬 &nbsp; developer 
+
+</div>
+
+### 1️⃣ &nbsp;Startup tentang developer 
+
+```txt
+╔════════════════════════════════════════════════════════════════════╗
+║                                                                    ║
+║                    🌟  Halo, Kenalan Yuk!  🌟                      ║
+║                                                                    ║
+║  🎯 Paragraf 1 — Latar Belakang & Filosofi                         ║
+║  ────────────────────────────────────────                          ║
+║  Ranz adalah seorang developer muda asal Indonesia yang aktif di   ║
+║  dunia otomasi terminal, Android modding, dan pengembangan tools   ║
+║  CLI berbasis Node.js...                                           ║
+║                                                                    ║
+║  💡 Paragraf 2 — Sifat & Prinsip Kerja                             ║
+║  ────────────────────────────────────────                          ║
+║  Di tengah kesibukannya, Ranz dikenal sebagai pribadi yang suka    ║
+║  berbagi...                                                        ║
+║                                                                    ║
+║  🚀 Paragraf 3 — Visi & Ajakan Kolaborasi                          ║
+║  ────────────────────────────────────────                          ║
+║  Ke depan, Ranz berencana terus mengembangkan Ranz Active...       ║
+║                                                                    ║
+║  ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─                          ║
+║                                                                    ║
+║        💬 "Kode yang baik bukan yang paling rumit,                 ║
+║             tapi yang paling berguna."                             ║
+║                    — Ranz                                          ║
+║                                                                    ║
+╚════════════════════════════════════════════════════════════════════╝
+
+  [🔗 Follow-Ranz]  [💬 Hubungi-Kami]  [⭐ Kasih-Star]  [🍴 Buat-Fork]
+
+      🇮🇩 Made with ❤️ in Indonesia
+      🚀 Terima kasih sudah membaca!
+
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+<!--              🚀 CARA RUNNING — COPY-FRIENDLY VERSION                    -->
+<!-- ═══════════════════════════════════════════════════════════════════════ -->
+
+<br/>
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=900&size=26&duration=2200&pause=700&color=00FF88&center=true&vCenter=true&width=800&height=55&lines=%F0%9F%9A%80+CARA+RUNNING+SCRIPT;Klik+tombol+%F0%9F%93%8B+untuk+copy;%E2%9A%A1+3+langkah+%E2%80%A2+Zero+dependencies" alt="Cara Running"/>
+
+<br/>
+<br/>
+
+<h3>📋 &nbsp;Cara Copy &nbsp;📋</h3>
+
+<p>👉 Arahkan kursor ke blok code → muncul tombol <b>Copy</b> 📋 di pojok kanan atas → <b>klik</b> → paste di Termux!</p>
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:00ff88,50:00e5ff,100:7b2ff7&height=3" width="60%"/>
+
+<br/>
+<br/>
+
+<!-- ╔════════════════════════════════════════════════════════════════════╗ -->
+<!-- ║                QUICK START — COPY PASTE 3 BARIS                     ║ -->
+<!-- ╚════════════════════════════════════════════════════════════════════╝ -->
+
+<h3>⚡ &nbsp;Quick Start — Copy Langsung &nbsp;⚡</h3>
+
+<p><i>👉 Klik tombol <b>Copy</b> di pojok kanan blok code di bawah, paste ke Termux — beres!</i></p>
+
+</div>
+
+```bash
+
+
+pkg install nodejs git nano -y && mkdir -p ~/ranz && cd ~/ranz && nano ranz.js
+
+<div align="center">
+
+## 🎬 &nbsp; running termux 
+
+</div>
+
+### 1️⃣ &nbsp;Startup tentang run termux 
+
+```txt
+echo 'export GITHUB_TOKEN="ghp_xxxxxxxxxxxx"' >> ~/.bashrc && source ~/.bashrc
+node ranz.js

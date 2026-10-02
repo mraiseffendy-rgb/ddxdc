@@ -15,47 +15,116 @@ const C = {
   white: '\x1b[37m'
 };
 
-/* ============ CONFIG ============ */
-// ⚠️ GANTI INI dengan raw URL config.js kamu di GitHub
-const GITHUB_CONFIG_URL =
-  'https://github.com/mraiseffendy-rgb/ddxdc.git/main/config.js';
-
-const DEFAULT_CONFIG = {
-  users: { 'Ranz': '122' }
+/* ============ GITHUB CONFIG ============ */
+// ⚠️ GANTI 4 BARIS INI dengan punya kamu
+const GITHUB = {
+  owner:  'mraiseffendy-rgb',
+  repo:   'https://github.com/mraiseffendy-rgb/ddxdc.git',
+  branch: 'main',
+  path:   'config.js',
+  token:  process.env.GITHUB_TOKEN || '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'
 };
 
-let config = JSON.parse(JSON.stringify(DEFAULT_CONFIG));
+const LOCAL_CONFIG = path.join(__dirname, 'config.json');
+
+/* ============ STATE ============ */
+let config = { users: { 'Ranz': '122' } };   // fallback
+let configSHA = null;                        // GitHub blob SHA (buat update)
 let onlineCount = 0;
 
 /* ============ UTILS ============ */
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
-function fetchConfig() {
-  return new Promise((resolve) => {
-    const req = https.get(GITHUB_CONFIG_URL, { timeout: 8000 }, (res) => {
-      if (res.statusCode !== 200) return resolve(null);
+function httpsRequest(method, urlStr, headers, body) {
+  return new Promise((resolve, reject) => {
+    const u = new URL(urlStr);
+    const opts = {
+      hostname: u.hostname,
+      path: u.pathname + u.search,
+      method,
+      headers: Object.assign({ 'User-Agent': 'Ranz-Active' }, headers || {})
+    };
+    const req = https.request(opts, (res) => {
       let data = '';
       res.on('data', c => data += c);
       res.on('end', () => {
-        try {
-          const m = { exports: {} };
-          new Function('module', 'exports', data + '\nreturn module.exports;')(m, m.exports);
-          if (m.exports && m.exports.users) resolve(m.exports);
-          else resolve(null);
-        } catch (e) { resolve(null); }
+        let parsed = data;
+        try { parsed = JSON.parse(data); } catch (e) {}
+        resolve({ status: res.statusCode, body: parsed });
       });
     });
-    req.on('error', () => resolve(null));
-    req.on('timeout', () => { req.destroy(); resolve(null); });
+    req.on('error', reject);
+    req.setTimeout(15000, () => { req.destroy(new Error('timeout')); });
+    if (body) req.write(body);
+    req.end();
   });
 }
 
-function saveConfigLocally() {
+/* ============ GITHUB API ============ */
+function ghHeaders() {
+  return {
+    'Authorization': 'token ' + GITHUB.token,
+    'Accept': 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28'
+  };
+}
+
+async function githubFetchConfig() {
+  const api = `https://api.github.com/repos/${GITHUB.owner}/${GITHUB.repo}/contents/${GITHUB.path}?ref=${GITHUB.branch}`;
+  const res = await httpsRequest('GET', api, ghHeaders());
+  if (res.status !== 200) {
+    throw new Error(`GitHub GET ${res.status}: ${res.body && res.body.message || 'unknown'}`);
+  }
+  const sha = res.body.sha;
+  const content = Buffer.from(res.body.content, 'base64').toString('utf8');
+
+  // parse module.exports
+  const m = { exports: {} };
+  new Function('module', 'exports', content)(m, m.exports);
+  if (!m.exports || typeof m.exports !== 'object' || !m.exports.users) {
+    throw new Error('config.js tidak mengandung { users }');
+  }
+  return { sha, users: m.exports.users, raw: content };
+}
+
+async function githubUpdateConfig(users) {
+  const content =
+    '// config.js — auto-managed by Ranz Active\n' +
+    'module.exports = ' + JSON.stringify({ users }, null, 2) + ';\n';
+
+  const api = `https://api.github.com/repos/${GITHUB.owner}/${GITHUB.repo}/contents/${GITHUB.path}`;
+  const payload = {
+    message: `feat(config): sync users via Ranz Active [${new Date().toISOString()}]`,
+    content: Buffer.from(content, 'utf8').toString('base64'),
+    branch: GITHUB.branch
+  };
+  if (configSHA) payload.sha = configSHA;
+
+  const res = await httpsRequest(
+    'PUT', api,
+    Object.assign(ghHeaders(), { 'Content-Type': 'application/json' }),
+    JSON.stringify(payload)
+  );
+
+  if (res.status !== 200 && res.status !== 201) {
+    throw new Error(`GitHub PUT ${res.status}: ${res.body && res.body.message || 'unknown'}`);
+  }
+  return res.body;
+}
+
+/* ============ LOCAL FALLBACK ============ */
+function saveLocal() {
   try {
-    fs.writeFileSync(
-      path.join(__dirname, 'config.json'),
-      JSON.stringify(config, null, 2)
-    );
+    fs.writeFileSync(LOCAL_CONFIG, JSON.stringify({ users: config.users }, null, 2));
+  } catch (e) {}
+}
+
+function loadLocal() {
+  try {
+    if (fs.existsSync(LOCAL_CONFIG)) {
+      const j = JSON.parse(fs.readFileSync(LOCAL_CONFIG, 'utf8'));
+      if (j && j.users) config = { users: j.users };
+    }
   } catch (e) {}
 }
 
@@ -113,8 +182,7 @@ function bigBoxLines() {
   const padded = art.map(l => {
     const len = [...l].length;
     const left = Math.floor((maxLen - len) / 2);
-    const right = maxLen - len - left;
-    return ' '.repeat(left) + l + ' '.repeat(right);
+    return ' '.repeat(left) + l + ' '.repeat(maxLen - len - left);
   });
   const pad = 4;
   const innerW = maxLen + pad * 2;
@@ -136,7 +204,7 @@ function printBigBox() {
 /* ============ LOADING BAR (2 menit) ============ */
 async function loadingBar() {
   const total = 100;
-  const stepMs = 120000 / total;   // 2 menit
+  const stepMs = 120000 / total;
   const BAR_W = 30;
   const innerW = BAR_W + 12;
   let rendered = false;
@@ -163,7 +231,7 @@ async function loadingBar() {
 
 /* ============ MENU ============ */
 function showMenu() {
-  const W = 44;
+  const W = 46;
   const pad = (t) => t + ' '.repeat(Math.max(0, W - t.length));
   const center = (t) => {
     const p = Math.floor((W - t.length) / 2);
@@ -174,10 +242,61 @@ function showMenu() {
   console.log(C.yellow + C.bold + '  ║' + center('MAIN MENU') + '║' + C.r);
   console.log(C.yellow + C.bold + '  ╠' + '═'.repeat(W) + '╣' + C.r);
   console.log(C.yellow + '  ║' + pad('  [1] Open Ubuntu Terminal') + '║' + C.r);
-  console.log(C.yellow + '  ║' + pad('  [2] Add User') + '║' + C.r);
+  console.log(C.yellow + '  ║' + pad('  [2] Add User (sync ke GitHub)') + '║' + C.r);
   console.log(C.yellow + '  ║' + pad('  [3] Exit') + '║' + C.r);
   console.log(C.yellow + C.bold + '  ╚' + '═'.repeat(W) + '╝' + C.r);
   console.log('');
+}
+
+/* ============ SUDO → APT (pkg) MAPPER ============ */
+/**
+ * Di dalam terminal kita, semua command yang diawali "sudo" di-map
+ * ke `pkg` (APT-nya Termux).
+ *
+ *   sudo apt install python    → pkg install python
+ *   sudo apt-get install git   → pkg install git
+ *   sudo install nano          → pkg install nano
+ *   sudo pkg install wget      → pkg install wget
+ *   sudo apt update            → pkg update
+ *   sudo apt upgrade           → pkg upgrade
+ *   sudo apt search X          → pkg search X
+ */
+function mapSudoCommand(cmd) {
+  if (!/^sudo(\s|$)/.test(cmd)) return null;
+  let rest = cmd.replace(/^sudo\s*/, '').trim();
+
+  // sudo kosong → print info pkg
+  if (!rest) return 'pkg help';
+
+  // apt / apt-get → pkg
+  if (/^apt(-get)?\b/.test(rest)) {
+    rest = rest.replace(/^apt(-get)?\b/, 'pkg');
+    return rest;
+  }
+
+  // install X / update / upgrade / search / list-all → pkg X
+  if (/^(install|uninstall|update|upgrade|search|list-all|list-installed|show|clean|autoremove)\b/.test(rest)) {
+    return 'pkg ' + rest;
+  }
+
+  // sudah `pkg ...`
+  if (/^pkg\b/.test(rest)) return rest;
+
+  // default: anggap subcommand pkg
+  return 'pkg ' + rest;
+}
+
+/* ============ RUN SHELL CMD ============ */
+function runShell(cmd, cwd) {
+  return new Promise((resolve) => {
+    exec(cmd, { cwd, shell: '/bin/bash', maxBuffer: 1024 * 1024 * 10 },
+      (err, stdout, stderr) => {
+        if (stdout) process.stdout.write(stdout);
+        if (stderr) process.stderr.write(stderr);
+        if (err && !stdout && !stderr) process.stderr.write(err.message + '\n');
+        resolve();
+      });
+  });
 }
 
 /* ============ UBUNTU TERMINAL (Node.js shell) ============ */
@@ -190,13 +309,14 @@ async function ubuntuTerminal(username) {
   console.log(C.green + C.bold + '  ═══ Ubuntu Terminal Session ═══' + C.r);
   console.log(C.green + `  Logged in as : ${C.bold}${username}${C.r}`);
   console.log(C.green + `  Online user  : ${online}` + C.r);
-  console.log(C.green + '  Ketik "exit"/"logout" untuk keluar' + C.r);
+  console.log(C.dim   + '  Tip: pakai "sudo apt install <pkg>" untuk install (auto ke pkg Termux)' + C.r);
+  console.log(C.dim   + '  Ketik "exit"/"logout" untuk keluar' + C.r);
   console.log('');
 
   while (true) {
     const prompt = C.green + C.bold + `root${username}${online}$ ` + C.r;
     const line = await askText(prompt);
-    const cmd = line.trim();
+    let cmd = line.trim();
 
     if (cmd === '') continue;
     if (cmd === 'exit' || cmd === 'logout') break;
@@ -204,33 +324,31 @@ async function ubuntuTerminal(username) {
     if (cmd === 'whoami') { console.log('root'); continue; }
     if (cmd === 'pwd')    { console.log(cwd); continue; }
 
-    // handle cd (perlu state khusus karena exec buat shell baru)
+    // ===== SUDO → pkg (APT Termux) =====
+    if (/^sudo(\s|$)/.test(cmd)) {
+      const mapped = mapSudoCommand(cmd);
+      console.log(C.magenta + '  [sudo → ' + mapped + ']' + C.r);
+      // jalankan di HOME biar akses pkg lancar
+      await runShell(mapped, process.env.HOME || cwd);
+      continue;
+    }
+
+    // ===== cd (stateful) =====
     if (cmd === 'cd' || cmd.startsWith('cd ')) {
       const target = cmd === 'cd' ? (process.env.HOME || '/') : cmd.slice(3).trim();
       const newPath = path.isAbsolute(target)
         ? target
         : path.resolve(cwd, target.replace(/^~/, process.env.HOME || ''));
       try {
-        if (fs.statSync(newPath).isDirectory()) {
-          cwd = newPath;
-        } else {
-          console.log(`cd: ${target}: Not a directory`);
-        }
+        if (fs.statSync(newPath).isDirectory()) cwd = newPath;
+        else console.log(`cd: ${target}: Not a directory`);
       } catch (e) {
         console.log(`cd: ${target}: No such file or directory`);
       }
       continue;
     }
 
-    await new Promise((resolve) => {
-      exec(cmd, { cwd, shell: '/bin/bash', maxBuffer: 1024 * 1024 * 10 },
-        (err, stdout, stderr) => {
-          if (stdout) process.stdout.write(stdout);
-          if (stderr) process.stderr.write(stderr);
-          if (err && !stdout && !stderr) process.stderr.write(err.message + '\n');
-          resolve();
-        });
-    });
+    await runShell(cmd, cwd);
   }
   onlineCount--;
 }
@@ -241,6 +359,15 @@ async function loginFlow() {
   const username = (await askText(C.cyan + '  Username : ' + C.r)).trim();
   const password = await askPassword(C.cyan + '  Password : ' + C.r);
 
+  // refresh dari GitHub biar selalu up-to-date
+  try {
+    const remote = await githubFetchConfig();
+    config = { users: remote.users };
+    configSHA = remote.sha;
+  } catch (e) {
+    // pakai cache
+  }
+
   if (config.users && config.users[username] && config.users[username] === password) {
     console.log(C.green + `  ✔ Login sukses. Selamat datang, ${username}!` + C.r);
     await ubuntuTerminal(username);
@@ -249,21 +376,55 @@ async function loginFlow() {
   }
 }
 
-/* ============ ADD USER ============ */
+/* ============ ADD USER (sync ke GitHub) ============ */
 async function addUserFlow() {
   console.log('');
   const username = (await askText(C.cyan + '  Username baru : ' + C.r)).trim();
-  if (!username) { console.log(C.red + '  ✘ Username tidak boleh kosong.' + C.r); return; }
-  if (config.users[username]) { console.log(C.red + '  ✘ User sudah ada.' + C.r); return; }
+  if (!username) { console.log(C.red + '  ✘ Username kosong.' + C.r); return; }
+
+  // fetch fresh dari GitHub dulu
+  console.log(C.dim + '  → Mengambil config.js dari GitHub...' + C.r);
+  let sha = null, users = null;
+  try {
+    const remote = await githubFetchConfig();
+    sha = remote.sha;
+    users = remote.users;
+    console.log(C.green + '  ✔ config.js terbaru dimuat dari GitHub.' + C.r);
+  } catch (e) {
+    console.log(C.yellow + '  ⚠ Gagal ambil dari GitHub: ' + e.message + C.r);
+    console.log(C.yellow + '  → Pakai config lokal (tidak akan commit ke GitHub).' + C.r);
+    users = Object.assign({}, config.users);
+  }
+
+  if (users[username]) { console.log(C.red + '  ✘ User sudah ada.' + C.r); return; }
+
   const password = await askPassword(C.cyan + '  Password baru : ' + C.r);
-  if (!password) { console.log(C.red + '  ✘ Password tidak boleh kosong.' + C.r); return; }
+  if (!password) { console.log(C.red + '  ✘ Password kosong.' + C.r); return; }
 
-  config.users[username] = password;
-  saveConfigLocally();
+  users[username] = password;
 
-  console.log('');
-  console.log(C.green + C.bold + `  ✔ TERKONFIRMASI → ${username}:${password}` + C.r);
-  console.log(C.dim   + '  (disimpan ke config.json lokal; update GitHub agar permanen)' + C.r);
+  // update ke GitHub
+  if (sha) {
+    console.log(C.dim + '  → Commit ke GitHub...' + C.r);
+    try {
+      configSHA = sha;   // penting: SHA lama dipakai untuk update
+      const result = await githubUpdateConfig(users);
+      const commit = result && result.commit && result.commit.sha;
+      console.log(C.green + C.bold + `  ✔ TERKONFIRMASI → ${username}:${password}` + C.r);
+      console.log(C.green + `  ✔ Config.js GitHub ter-update! commit ${commit ? commit.slice(0,7) : ''}` + C.r);
+      config = { users };
+      saveLocal();
+    } catch (e) {
+      console.log(C.red + '  ✘ Gagal commit ke GitHub: ' + e.message + C.r);
+      console.log(C.yellow + '  → Disimpan lokal saja (config.json).' + C.r);
+      config = { users };
+      saveLocal();
+    }
+  } else {
+    config = { users };
+    saveLocal();
+    console.log(C.green + C.bold + `  ✔ TERKONFIRMASI (lokal) → ${username}:${password}` + C.r);
+  }
 }
 
 /* ============ MAIN ============ */
@@ -271,13 +432,24 @@ async function main() {
   process.stdout.write('\x1b[2J\x1b[H');
   printBigBox();
 
-  console.log(C.dim + '  Memuat konfigurasi dari GitHub...' + C.r);
-  const remote = await fetchConfig();
-  if (remote) {
-    config = remote;
-    console.log(C.green + '  ✔ Konfigurasi dimuat dari GitHub.' + C.r);
-  } else {
-    console.log(C.yellow + '  ⚠ Gagal fetch GitHub, pakai config lokal/default.' + C.r);
+  // token check
+  if (!GITHUB.token || GITHUB.token.includes('GANTI')) {
+    console.log(C.red + C.bold + '  ⚠ GITHUB_TOKEN belum di-set!' + C.r);
+    console.log(C.yellow + '    export GITHUB_TOKEN="ghp_xxx" lalu jalankan ulang.' + C.r);
+    console.log('');
+  }
+
+  // load config: coba GitHub dulu, fallback lokal
+  console.log(C.dim + '  Memuat config.js dari GitHub...' + C.r);
+  try {
+    const remote = await githubFetchConfig();
+    config = { users: remote.users };
+    configSHA = remote.sha;
+    console.log(C.green + `  ✔ Config GitHub OK (${Object.keys(config.users).length} user)` + C.r);
+  } catch (e) {
+    console.log(C.yellow + '  ⚠ Gagal dari GitHub: ' + e.message + C.r);
+    loadLocal();
+    console.log(C.yellow + `  → Pakai lokal (${Object.keys(config.users).length} user)` + C.r);
   }
   console.log('');
   console.log(C.dim + '  Starting services...' + C.r);
